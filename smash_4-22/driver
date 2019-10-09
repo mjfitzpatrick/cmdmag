@@ -1,0 +1,5 @@
+#!/bin/csh -f
+
+foreach f (`cat _fields`)
+    python ../fplot2.py -t -f $f
+end
